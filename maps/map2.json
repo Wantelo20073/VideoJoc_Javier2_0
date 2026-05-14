@@ -1,0 +1,43 @@
+{
+    "id":2,
+    "mapName":"Inferno Dungeons: 2 level",
+"history":"Congratulations! You survived the first level of the Inferno Dungeons. Did you think hell would get cozier on floor two? Spoiler: it doesn't. Now there's devils who take 'personal space' very seriously, skulls that definitely didn't die of boredom, and slimes that have multiplied because apparently one wasn't annoying enough. Oh, and the grand prize for enduring all this? FIVE books. FIVE. The portal must be writing a thesis",    "mapCoords":[
+    [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 4, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 5, 4, 4, 4, 4, 4, 4, 4, 5, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 5, 4, 4, 4, 4, 4, 5, 4, 0, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 0, 4, 4, 5, 4, 0, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 4, 4, 0, 4, 4, 4, 5, 0, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 5, 4, 4, 4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 5, 4, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 0, 4, 4, 4, 4, 4, 4, 0, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 5, 4, 4, 0, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 0, 5, 5, 5, 4, 4, 4, 0, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 5, 5, 0, 5, 5, 5, 4, 4, 4, 4, 5, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4, 0, 4, 4, 4],
+    [4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],
+    [4, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4, 4, 5, 0, 0, 0, 0, 0, 0, 0, 5, 4, 4, 4, 4, 4, 4],
+    [4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4],
+    [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+    ],
+    "structuresCode":[
+        {"code":5, "name":"wall"},
+        {"code":0, "name":"floor"},
+        {"code":4, "name":"lava"}
+    ],
+    "playerStart":{"gridX": 3, "gridY":9},
+    "playerMovList":[0],
+    "enemies":[
+        {"type": "devil", "range":4, "time":30,"walkableStructures":[0],"coords":[{"gridX":12,"gridY":13}]},
+        {"type": "skull", "range":5, "time":20,"walkableStructures":[0,4],"coords":[{"gridX":16,"gridY":11}]},
+        {"type": "slime", "range":6, "time":35,"walkableStructures":[0],"coords":[{"gridX":20,"gridY":13},{"gridX":12,"gridY":5}]}
+    ],
+    "keysCoords":[
+        {"gridX":12,"gridY":4},
+        {"gridX":13,"gridY":14},
+        {"gridX":19,"gridY":13},
+        {"gridX":29,"gridY":8},
+        {"gridX":23,"gridY":4}
+    ],
+    "doorsCoords":[{"gridX":2,"gridY":9}]
+}
